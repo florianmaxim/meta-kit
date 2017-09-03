@@ -24,6 +24,8 @@ export default {
     ]
   },
 
-  plugins: [new htmlWebpackPlugin()]
+  plugins: [new htmlWebpackPlugin({
+    title: 'space'
+  })]
 
 }
