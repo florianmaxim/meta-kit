@@ -19,7 +19,7 @@
     "css-loader": "^0.28.7",
     "express": "^4.15.4",
     "html-webpack-plugin": "^2.30.1",
-    "meta-client": "^0.0.0-a91",
+    "meta-client": "^0.0.0-a94",
     "node-sass": "^4.5.3",
     "path": "^0.12.7",
     "sass-loader": "^6.0.6",
