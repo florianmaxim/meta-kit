@@ -1,6 +1,7 @@
 import path from 'path';
 import webpack from 'webpack';
 import htmlWebpackPlugin from 'html-webpack-plugin';
+import copyWebpackPlugin from 'copy-webpack-plugin';
 
 export default {
 
@@ -34,8 +35,18 @@ export default {
     ]
   },
 
-  plugins: [new htmlWebpackPlugin({
-    title: 'space'
-  })]
+  plugins: [
+
+      new htmlWebpackPlugin({
+        title: 'space'
+      })
+    ,
+
+      new copyWebpackPlugin([{
+        from: path.join(__dirname, '/src/public/static'),
+        to: path.join(__dirname, '/lib/public/static')
+      }])
+
+  ]
 
 }
