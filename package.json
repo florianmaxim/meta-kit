@@ -23,10 +23,12 @@
     "path": "^0.12.7",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "webpack": "^3.5.5"
+    "webpack": "^3.5.5",
+    "meta-console": "latest",
+    "meta-client": "latest"
   },
   "dependencies": {
-    "meta-console": "*",
-    "meta-client": "*"
+    "meta-console": "latest",
+    "meta-client": "latest"
   }
 }
