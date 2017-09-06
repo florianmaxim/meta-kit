@@ -1,5 +1,4 @@
-import {Ground, Cube, Model} from 'meta-client';
+import {Ground, Cube} from 'meta-client';
 
 new Ground();
 new Cube();
-new Model('coconut-tree')
