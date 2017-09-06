@@ -38,7 +38,8 @@ export default {
   plugins: [
 
       new htmlWebpackPlugin({
-        title: 'space'
+        title: 'space',
+        favicon: path.join(__dirname, '/src/public/static/images/favicon.ico')
       })
     ,
 
