@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "meta-client": "*",
-    "meta-console": "0.0.0-a63"
+    "meta-console": "0.0.0-a64"
   }
 }
