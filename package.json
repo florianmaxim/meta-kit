@@ -26,7 +26,7 @@
     "webpack": "^3.5.5"
   },
   "dependencies": {
-    "meta-client": "0.0.0-b19",
-    "meta-console": "0.0.0-a68"
+    "meta-client": "0.0.0-b21",
+    "meta-console": "0.0.0-a70"
   }
 }
