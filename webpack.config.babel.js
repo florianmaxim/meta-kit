@@ -38,7 +38,7 @@ export default {
   plugins: [
 
       new htmlWebpackPlugin({
-        title: 'MetaJS - The (Virtual) Space Library',
+        title: 'Meta.js - The (Virtual) Space Library',
         favicon: path.join(__dirname, '/src/public/static/images/favicon.ico')
       })
     ,
