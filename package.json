@@ -28,8 +28,8 @@
   "dependencies": {
     "fabric": "^1.7.18",
     "i": "^0.3.5",
-    "meta-client": "0.0.0-b25",
-    "meta-console": "0.0.0-a80",
+    "meta-client": "0.0.0-b29",
+    "meta-console": "0.0.0-a88",
     "npm": "^5.4.2",
     "paper": "^0.11.4"
   }
