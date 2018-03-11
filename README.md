@@ -10,18 +10,28 @@
 
 # <p align="center">Usage</p>
 
+## <p align="center">1.</p>
+
 ### <p align="center">Just open <i>index.js</i> in the <i>/public</i> directory and start writing Meta.js code:</p>
 
 ```javascript
-import {Cube} from 'meta-client';
+import {Ground, Cube} from 'meta-client';
 
-new Cube()
+new Ground();
+
+new Cube().move('up', 5);
 ```
-# <p align="center">Run</p>
+## <p align="center">2.</p>
 
-### <p align="center">Type:</p>
+### <p align="center">Type and run in your console:</p>
 
 ```javascript
 npm run build && npm start
 ```
-### <p align="center">Browse to https://localhost:5000</p>
+## <p align="center">3.</p>
+
+### <p align="center">Open in your browser:</p>
+
+```javascript
+https://localhost:5000
+```
