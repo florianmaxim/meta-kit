@@ -14,7 +14,7 @@
 
 ## <p align="center">1.</p>
 
-### <p align="center">Just open <i>index.js</i> in the <i>/public</i> directory and start writing Meta.js code:</p>
+### <p align="center">Start writing Meta.js code in <i>index.js</i> in the <i>/public</i> directory:</p>
 
 ```javascript
 import {Ground, Cube} from 'meta-client';
