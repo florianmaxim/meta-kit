@@ -8,6 +8,20 @@
 
 ### <p align="center">This basically sets of a super simple Express HTTP server with preinstalled Meta.js.</p>
 
-### <p align="center">Just open <i>index.js</i> in the public directory and start writing Meta.js code.</p>
+# <p align="center">Usage</p>
 
-### <p align="center">Run 'npm run build && npm start' and browse to https://localhost:5000</p>
+### <p align="center">Just open <i>index.js</i> in the <i>/public</i> directory and start writing Meta.js code:</p>
+
+```javascript
+import {Cube} from 'meta-client';
+
+new Cube()
+```
+# <p align="center">Run</p>
+
+### <p align="center">Type:</p>
+
+```javascript
+npm run build && npm start
+```
+### <p align="center">Browse to https://localhost:5000</p>
