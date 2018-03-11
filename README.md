@@ -10,6 +10,14 @@
 
 ### <p align="center">This basically sets of a super simple Express HTTP server with preinstalled Meta.js.</p>
 
+# <p align="center">Install</p>
+
+### <p align="center">Type and run in your console:</p>
+
+```javascript
+git clone https://github.com/florianmaxim/meta-kit && cd meta-kit
+```
+
 # <p align="center">Usage</p>
 
 ## <p align="center">1.</p>
