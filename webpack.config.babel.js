@@ -1,9 +1,9 @@
-import path from 'path';
-import webpack from 'webpack';
-import htmlWebpackPlugin from 'html-webpack-plugin';
-import copyWebpackPlugin from 'copy-webpack-plugin';
+const path = require('path');
+const webpack = require('webpack');
+const htmlWebpackPlugin = require('html-webpack-plugin');
+const copyWebpackPlugin = require('copy-webpack-plugin');
 
-export default {
+module.exports = {
 
   entry: {
     app:path.join(__dirname, '/src/public')
